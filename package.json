@@ -1,0 +1,31 @@
+{
+  "name": "logo-exercise",
+  "version": "1.0.0",
+  "description": "An example app we use for interview questions :)",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "John Lees-Miller",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^8.1.1",
+    "node-fetch": "^2.6.0",
+    "prettier": "^2.0.5"
+  }
+}
