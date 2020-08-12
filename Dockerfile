@@ -10,7 +10,7 @@ COPY --chown=node:node package.json package-lock.json ./
 
 RUN npm install --quiet --production
 
-FROM node:lts
+FROM node:lts-slim
 
 USER node
 
