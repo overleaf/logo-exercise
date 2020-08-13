@@ -38,4 +38,4 @@ If you'd like to read the code, the most important files are:
 - [`./src/app.js`](./src/app.js) --- the express application
 - [`./views/index.pug`](./views/index.pug) --- the HTML page comes from here
 
-There is also a basic test in, which you can run locally with `npm test`.
+There is also a basic test in [`./test/app.test.js`](./test/app.test.js), which you can run locally with `npm test`.
