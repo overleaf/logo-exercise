@@ -2,11 +2,9 @@
 
 ![CI status](https://github.com/overleaf/logo-exercise/workflows/CI/badge.svg)
 
-Display the Overleaf logo in any color you like!
+Display the Overleaf logo in any color you like! (This is an application we sometimes use for interview questions.)
 
 ![Overleaf Logo Exercise in Firefox with the logo turned green](./doc/screenshot.png)
-
-(This is an application we sometimes use for interview questions.)
 
 ## Installation
 
