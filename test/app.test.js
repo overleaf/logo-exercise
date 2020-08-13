@@ -1,7 +1,6 @@
 const assert = require('assert')
 const fetch = require('node-fetch')
 
-// Ensure the global test server is started, for this.testClient.
 const app = require('../src/app')
 
 before(function (done) {

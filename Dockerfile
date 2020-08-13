@@ -1,5 +1,6 @@
 FROM node:lts AS build
 
+# Jump through some hoops to run the build as the node user instead of root.
 RUN mkdir -p /srv/logo-exercise && chown -R node:node /srv/logo-exercise
 
 USER node
