@@ -4,6 +4,8 @@
 
 Display the Overleaf logo in any color you like!
 
+![Overleaf Logo Exercise in Firefox with the logo turned green](./doc/screenshot.png)
+
 (This is an application we sometimes use for interview questions.)
 
 ## Installation
@@ -19,6 +21,7 @@ Or you can run the application locally if you have `node` installed (version 10+
 ```
 git clone git@github.com:overleaf/logo-exercise.git
 cd logo-exercise
+npm install
 npm start
 ```
 
@@ -35,6 +38,6 @@ If you'd like to read the code, the most important files are:
 
 - [`./server.js`](./server.js) --- entry point that runs the express application
 - [`./src/app.js`](./src/app.js) --- the express application
-- [`./views/index.pug`](./views/index.pug) --- renders the HTML
+- [`./views/index.pug`](./views/index.pug) --- the HTML page comes from here
 
 There is also a basic test in, which you can run locally with `npm test`.
